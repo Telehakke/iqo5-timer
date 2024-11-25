@@ -15,7 +15,10 @@ const App = (): JSX.Element => {
             </h1>
             <CountdownTimer />
             <div className="fixed inset-x-0 bottom-4 flex items-center justify-center gap-2">
-                <a>
+                <a
+                    href="https://github.com/Telehakke/iqo5-timer"
+                    target="_blank"
+                >
                     <picture className="hover:opacity-70">
                         <source
                             srcSet={githubMarkWhiteSVG}
